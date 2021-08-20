@@ -5,26 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Fylo data storage component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <img alt="background image for the mobile version" class="bg-mobile" src="images/bg-mobile.png">
+    <img alt="background image for the desktop version" class="bg-desktop" src="images/bg-desktop.png">
+    <div class="main-content">
+      <div class="first-section">
+        <img alt="an image of a logo" class="logo-img" src="images/logo.svg">
+        
+        <div class="icons">
+          <a href="#"><img class="document-image" alt="an icon of a document" src="images/icon-document.svg"></a>
+          <a href="#"><img class="folder-image" alt="an icon of a folder" src="images/icon-folder.svg"></a>
+          <a href="#"><img class="upload-image" alt="an icon of a upload sign" src="images/icon-upload.svg"></a>
+        </div>
+      </div>
+      <div class="second-section">
+        <p class="info-para">
+          You’ve used 815 GB of your storage
+        </p>
+        <p class="shape">
+        </p>
+        <p class="initial-size">
+          0 GB
+        </p>
+        <p class="full-size">
+          1000 GB
+        </p>
+        <p class="size-left">
+          185 GB Left
+        </p>
+      </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </main>
 </body>
 </html>
